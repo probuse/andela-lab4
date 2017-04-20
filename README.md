@@ -8,3 +8,10 @@
     if the two lists have the same elements, a 0 is returned
     if the lists are empty, a 0 is returned.
     
+### binary_search.py
+    Performs a binary search to locate a value 
+    It takes in a parameter val, the value to locate
+    It returns dict: dictionary of the form {'count': int, 'index': int}
+    The count key shows the number of binary search iterations
+    And the index is the position of the value.
+       
