@@ -14,4 +14,11 @@
     It returns dict: dictionary of the form {'count': int, 'index': int}
     The count key shows the number of binary search iterations
     And the index is the position of the value.
-       
+    
+### google_home.html
+    This is an html file that returns the google landing page of google.
+    This file uses the google.css file
+    For this file to work properly, it has to be in the same folder/directory as the google.css
+    
+### google.css
+    This is the css file for the google_home.html
