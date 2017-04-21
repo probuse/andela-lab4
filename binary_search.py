@@ -1,11 +1,13 @@
 class BinarySearch(list):
     
-    def __init__(self, length, step):
+    def __init__(self, a, b):
         """class constructor method"""
+        self.length = a
+        self.step = b
         super(BinarySearch, self).__init__()
         # populate the class based on the length and step arguments
-        for elem in range(1, length+1):
-            self.append(elem * step)
+        for elem in range(1, self.length+1):
+            self.append(elem * self.step)
         # define a length attribute
         self.length = len(self)
 
